@@ -1,0 +1,37 @@
+<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.000000" height="50.000000" fill="none" customFrame="#000000">
+	<defs>
+		<filter id="pixso_custom_mask_type_luminance">
+			<feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 " />
+		</filter>
+		<linearGradient id="paint_linear_0" x1="54.3658943" x2="27.2387962" y1="46.088028" y2="29.6676559" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(255,233,33)" offset="0.0900000036" stop-opacity="1" />
+			<stop stop-color="rgb(254,199,0)" offset="1" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_1" x1="30.5363159" x2="0.904733658" y1="50.8701935" y2="32.8142166" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(169,168,255)" offset="0.150000006" stop-opacity="1" />
+			<stop stop-color="rgb(109,151,255)" offset="0.330000013" stop-opacity="1" />
+			<stop stop-color="rgb(49,134,255)" offset="0.479999989" stop-opacity="1" />
+		</linearGradient>
+		<linearGradient id="paint_linear_2" x1="34.8930397" x2="4.82980537" y1="7.93817902" y2="22.0728607" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(14,188,95)" offset="0.550000012" stop-opacity="1" />
+			<stop stop-color="rgb(120,201,255)" offset="0.850000024" stop-opacity="1" />
+		</linearGradient>
+	</defs>
+	<mask id="mask_0" width="50.000000" height="46.000000" x="0.000000" y="2.000000" maskUnits="userSpaceOnUse">
+		<g filter="url(#pixso_custom_mask_type_luminance)">
+			<g id="a">
+				<path id="Вектор 4" d="M15.0982 7.67532C19.4989 0.108376 30.5011 0.108077 34.9018 7.67532L48.4512 30.9739C52.8519 38.5411 47.3509 48 38.5493 48L11.4507 48C2.6491 48 -2.85186 38.5411 1.54879 30.9739L15.0982 7.67532Z" fill="rgb(255,255,255)" fill-rule="evenodd" />
+			</g>
+		</g>
+	</mask>
+	<g id=" GoogleDriveNew">
+		<rect id="Прямоугольник 1" width="50.000000" height="50.000000" x="0.000000" y="0.000000" fill="rgb(196,196,196)" fill-opacity="0" />
+		<g id="mask" mask="url(#mask_0)">
+			<g id="Группа 2">
+				<path id="Вектор 1" d="M58.3691 48.0057L30.722 48.0057L25.0008 38.1683L38.8243 14.3984L58.3691 48.0057Z" fill="url(#paint_linear_0)" fill-rule="evenodd" />
+				<path id="Вектор 2" d="M-8.37297 48.0015L11.1718 14.3943L11.1718 14.3949L5.45269 24.2298L16.8921 24.2298L30.7169 48.0009L-8.37267 48.0012L-8.37297 48.0015Z" fill="url(#paint_linear_1)" fill-rule="evenodd" />
+				<path id="Вектор 3" d="M25.0023 -9.37592L38.8267 14.3961L33.1067 24.2316L5.45751 24.2316L25.0023 -9.37592Z" fill="url(#paint_linear_2)" fill-rule="evenodd" />
+			</g>
+		</g>
+	</g>
+</svg>
