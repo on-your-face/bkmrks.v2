@@ -6,7 +6,6 @@ import './sass/main.scss';
 import './sass/modal.scss';
 import './sass/tags.scss';
 import './sass/search.scss';
-
 // scripts
 import { preloadFonts } from './js/preload_font.js';
 import { initModal } from './js/modal.js';
@@ -15,15 +14,6 @@ import { initModal } from './js/modal.js';
 import { initSearch } from './js/search_tg_accounts.js';
 import { initYandexTime } from './js/yandex_time.js';
 import { preloadModals } from './js/preload_modals.js';
-// Импортируем наш новый скрипт:
-import { initRelNoopener } from './js/rel_noop.js'; 
 
 // initScript
-(
-   initModal(), 
-   preloadFonts(), 
-   initSearch(), 
-   initYandexTime(), 
-   preloadModals(), 
-   initRelNoopener() // Добавляем вызов функции в общую цепочку
-);
+(initModal(), preloadFonts(), initSearch(), initYandexTime(), preloadModals());
